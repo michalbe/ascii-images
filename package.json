@@ -11,5 +11,11 @@
   "scripts": {
     "test": "node tests/ascii-images-tests.js",
     "lint": "node node_modules/jshint/bin/jshint ."
+  },
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "color2xterm": "^1.0.0",
+    "image-size": "^0.3.2",
+    "png-js": "^0.1.1"
   }
 }
