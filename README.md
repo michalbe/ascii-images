@@ -6,7 +6,7 @@ This library displays `.png` images in the command line. Example:
  * Image:<br/>
 ![image](test-image.png)
 
- * And generated ASCII image:
+ * And generated ASCII image:<br/>
 ![screen](screen.png)
 
 ### API ###
@@ -14,7 +14,7 @@ This library takes two parameters:
 ```javascript
 AsciiImages('path/to/the/image.png', callback);
 ```
-The only parameter passed to the callback is our image converted to ascii, all we want to do now is display it in the commandline, for instance using `console.log`.
+The only parameter passed to the callback is our image converted to ascii, all we want to do now is display it in commandline, for instance using `console.log`.
 
 ### How to use? ###
 Install simply with:
@@ -38,5 +38,3 @@ When the image is passed to the library, it uses [PNG-JS](https://www.npmjs.org/
 ### Limitations ###
   * `PNG-JS` works only with `.png` files
   * `xTerm colors` are _'Not supported on Windows and some terminals. However if used in not supported environment, the closest color from basic (16 colors) palette is chosen'_ - quote form `cli-color` lib.
-
-<small>_ 2014, generated with [michal](https://www.npmjs.org/package/michal)_</small>
