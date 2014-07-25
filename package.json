@@ -1,6 +1,6 @@
 {
   "name": "ascii-images",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Michał Budzyński <michal@virtualdesign.pl>",
   "repository": "git@github.com:michalbe/ascii-images.git",
   "devDependencies": {

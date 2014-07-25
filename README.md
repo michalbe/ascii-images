@@ -4,10 +4,10 @@ Convert `.png` images to ASCII characters
 ### What? ###
 This library displays `.png` images in the command line. Example:
  * Image:<br/>
-![image](test-image.png)
+![image](https://raw.githubusercontent.com/michalbe/ascii-images/master/test-image.png)
 
  * And generated ASCII image:<br/>
-![screen](screen.png)
+![screen](https://raw.githubusercontent.com/michalbe/ascii-images/master/screen.png)
 
 ### API ###
 This library takes two parameters:
